@@ -1,0 +1,87 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+    --borderColor: #c1c1c1;
+    --mainText: black;
+    --secondaryText: #4b5156;
+    --btnColor: black;
+    --inputBg: #f5f5f5;
+    --inputBorder: #ccc;
+    --inputFocus: #b3b3b3;
+    --btnHover: #333;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: var(--mainColor);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--mainText);
+    font-family: "Russo One", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid var(--inputBorder);
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: var(--inputBg);
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: var(--inputFocus);
+    outline: none;
+}
+
+input[type="submit"], button {
+    background-color: var(--btnColor);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: var(--btnHover);
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar a {
+    color: var(--mainText);
+    text-decoration: none;
+    padding: 0 10px;
+}
