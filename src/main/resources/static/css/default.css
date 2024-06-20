@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color:#f7f7f7;
+}
+
+#text-card{
+    margin: 0 100px;
+    font-family: Montserrat;
+    line-height: 2;
+    background-color: white;
+    color: #333333;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-body h1{
+    font-weight: bolder;
+}
+
+#text-card h1{
+    font-size: 65px;
+}
+
+#text-card p{
+    font-size: 14px;
+}
+
+
+.register{
+    margin-right: 10px;
+    background-color: #ff4e00;
+    border: 1px solid  brown;
+    width: 200px;
+}
+
+.register:hover{
+    background-color: #ff4e00;
+    border: 1px solid  brown;
+    color: white;
+}
+
+.login{
+    background-color: #ffb114;
+    border: 1px solid  brown;
+    width: 200px;
+}
+
+.login:hover{
+    background-color: #ffb114;
+    border: 1px solid  brown;
+    color: white;
+}
+
+/* register style */
+
+.registration-form-card
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .form-control{
+    margin: 10px 0;
+}
+
+.reg-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #ff4e00;
+    border: 1px solid  brown;
+    color: white;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin: 20px auto;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+
+/* login */
+.log-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #ffb114;;
+    border: 1px solid  brown;
+    color: white;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin: 20px auto;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/* error */
+.error-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.error-page h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.error-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.error-page button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
